@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>🌐 Advanced Nmap Network Scanning & Vulnerability Analysis Guide</h1>
+  <h1> Advanced Nmap Network Scanning & Vulnerability Analysis Guide</h1>
   
   ![Nmap](https://img.shields.io/badge/Tool-Nmap-blue.svg)
   ![OS](https://img.shields.io/badge/OS-Kali%20Linux-black.svg)
@@ -8,12 +8,12 @@
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 This project documents the comprehensive use of **Nmap (Network Mapper)** for network infrastructure mapping, service enumeration, and potential vulnerability identification. The guide covers a wide spectrum of techniques, ranging from basic host discovery to advanced IDS/IPS evasion strategies.
 
 ---
 
-## 🚀 1. Network Discovery & Scanning Strategies
+##  1. Network Discovery & Scanning Strategies
 
 A comparison of fundamental commands used to map the status of targets on a network:
 
@@ -26,7 +26,7 @@ A comparison of fundamental commands used to map the status of targets on a netw
 
 ---
 
-## 🔍 2. Deep Enumeration: OS & Service Detection
+##  2. Deep Enumeration: OS & Service Detection
 
 Understanding the underlying technologies behind open ports is a critical step:
 * **`nmap -sV --version-intensity 5 [IP]`** : Aggressively determines the exact version numbers of services running on open ports.
@@ -35,7 +35,7 @@ Understanding the underlying technologies behind open ports is a critical step:
 
 ---
 
-## 🛡️ 3. Nmap Scripting Engine (NSE) for Vulnerability Hunting
+##  3. Nmap Scripting Engine (NSE) for Vulnerability Hunting
 
 Utilizing Nmap's embedded scripting engine to transform it into a vulnerability scanner:
 * **`nmap -sC [IP]`** : Runs a collection of default, safe scripts for basic enumeration.
@@ -44,7 +44,7 @@ Utilizing Nmap's embedded scripting engine to transform it into a vulnerability 
 
 ---
 
-## 🥷 4. Firewall & IDS/IPS Evasion Techniques
+##  4. Firewall & IDS/IPS Evasion Techniques
 
 Advanced methodologies used to bypass security appliances or obscure scan traffic:
 * **`nmap -f [IP]`** : **Packet Fragmentation.** Splits packets into smaller 8-byte fragments to bypass simple firewalls.
@@ -53,7 +53,7 @@ Advanced methodologies used to bypass security appliances or obscure scan traffi
 
 ---
 
-## 📂 5. Output & Reporting
+##  5. Output & Reporting
 
 Properly documenting scan results is essential for security analysis:
 * `nmap -oN scan_report.txt [IP]` : Saves results in a standard, human-readable text format.
@@ -62,7 +62,7 @@ Properly documenting scan results is essential for security analysis:
 
 ---
 
-## 📚 References & Appendix
+##  References & Appendix
 
 The following academic and technical resources were referenced during the research, execution, and reporting phases of this project:
 
@@ -74,6 +74,6 @@ The following academic and technical resources were referenced during the resear
 
 ---
 
-## ⚠️ Disclaimer
+##  Disclaimer
 This project and its documentation are strictly for **educational and academic research purposes**. The tools and techniques demonstrated here were used solely on authorized target systems within an isolated laboratory environment. Unauthorized network scanning is illegal. The author assumes no liability for the misuse of this information.
 
